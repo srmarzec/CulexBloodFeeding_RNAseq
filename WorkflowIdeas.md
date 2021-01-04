@@ -9,15 +9,15 @@ Requirements:
   - Illumina or SOLiD sequencing
 
 ### Workflow
-*TopHat* (or [TopHat2](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36#:~:text=TopHat2%20combines%20the%20ability%20to,.edu%2Fsoftware%2Ftophat.)) maps reads that are "initially unmapable" by Bowtie (those read segments that map far apart [b/w 100bp and >several hundred kb] and thus are inferred to span a slice site
+**TopHat** (or [TopHat2](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36#:~:text=TopHat2%20combines%20the%20ability%20to,.edu%2Fsoftware%2Ftophat.)) maps reads that are "initially unmapable" by Bowtie (those read segments that map far apart [b/w 100bp and >several hundred kb] and thus are inferred to span a slice site
 
-*Cufflinks* assembles individual transcripts from mapped reads
+**Cufflinks** assembles individual transcripts from mapped reads
 
   - Does not deal well with pooled data, because computationally expensive and becomes too complex with potentially different splice isoforms. _Cuffmerge_, a "meta-assembler", can be used on individual samples after they are run though _Cufflinks_ and this will merge the resulting assemblies together.
   
   - _Cuffcompare_ will compare the assemblies to a reference annotation file to ep identify new genes
   
-  -_Cuffdiff_ calculates expression in two or more samples and test for stat. significance in expression. _Cufflinks_ should be able to automatically model and substract a large amount of the bias due to library prep.
+  - _Cuffdiff_ calculates expression in two or more samples and test for stat. significance in expression. _Cufflinks_ should be able to automatically model and substract a large amount of the bias due to library prep.
   
   - Output can be easily veiwed and illustrated with _CummeRbund_
 
