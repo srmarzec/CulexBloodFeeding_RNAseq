@@ -54,3 +54,5 @@ Used:
   
 ## Other
 [RNA-seq best practices](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8)
+
+Would it be helpful to make our our transcriptome assembly guided based on Cx. quinquefasciatus? [Ungaro et al 2017](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185020)
