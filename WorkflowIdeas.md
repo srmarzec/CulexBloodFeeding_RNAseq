@@ -9,7 +9,7 @@ Requirements:
   - Illumina or SOLiD sequencing
 
 ### Workflow
-**TopHat** (or [TopHat2](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36#:~:text=TopHat2%20combines%20the%20ability%20to,.edu%2Fsoftware%2Ftophat.)) maps reads that are "initially unmapable" by Bowtie (those read segments that map far apart [b/w 100bp and >several hundred kb] and thus are inferred to span a slice site
+**TopHat** (or [TopHat2](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36#:~:text=TopHat2%20combines%20the%20ability%20to,.edu%2Fsoftware%2Ftophat.)) maps reads that are "initially unmapable" by Bowtie (those read segments that map far apart [b/w 100bp and >several hundred kb] and thus are inferred to span a slice site).
 
 **Cufflinks** assembles individual transcripts from mapped reads
 
@@ -52,3 +52,5 @@ Used:
   - DESeq2 in R
   - GO analysis using GOstats in R
   
+## Other
+[RNA-seq best practices](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8)
